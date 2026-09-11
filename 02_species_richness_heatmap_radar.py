@@ -99,7 +99,7 @@ def draw_radar(ax):
     legend.get_frame().set_edgecolor("#555555")
 
 
-def create_figure(output_file="images/02_species_richness_heatmap_radar.jpeg", dpi=300):
+def create_figure(output_file="images/02_species_richness_heatmap_radar.png", dpi=300):
     plt.rcParams.update({
         "font.family": FONT,
         "font.serif": [FONT, "DejaVu Serif"],
