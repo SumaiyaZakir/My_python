@@ -6,7 +6,7 @@ Python scripts and publication-style figures for visualizing land-use/land-cover
 
 ### 1. Habitat Quality: 2020 vs 2050
 
-![Habitat Quality](images/01_habitat_quality_2020_2050.png)
+![Habitat Quality](images/01_habitat_quality_2020_2050.jpeg)
 
 **Python code:** [`01_habitat_quality_2020_2050.py`](01_habitat_quality_2020_2050.py)
 
