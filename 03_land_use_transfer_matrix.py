@@ -72,7 +72,7 @@ def draw_transfer_matrix(ax, data, title, period, maximum):
     colorbar.outline.set_visible(False)
 
 
-def create_figure(output_file="images/03_land_use_transfer_matrix.jpeg", dpi=300):
+def create_figure(output_file="images/03_land_use_transfer_matrix.png", dpi=300):
     plt.rcParams.update({
         "font.family": FONT,
         "font.serif": [FONT, "DejaVu Serif"],
