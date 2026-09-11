@@ -14,7 +14,7 @@ Python scripts and publication-style figures for visualizing land-use/land-cover
 
 ### 2. Species Richness by Land Use Type
 
-![Species Richness](images/02_species_richness_heatmap_radar.png)
+![Species Richness](images/02_species_richness_heatmap_radar.jpeg)
 
 **Python code:** [`02_species_richness_heatmap_radar.py`](02_species_richness_heatmap_radar.py)
 
@@ -22,7 +22,7 @@ Python scripts and publication-style figures for visualizing land-use/land-cover
 
 ### 3. Land Use Transfer Matrix
 
-![Land Use Transfer Matrix](images/03_land_use_transfer_matrix.png)
+![Land Use Transfer Matrix](images/03_land_use_transfer_matrix.jpeg)
 
 **Python code:** [`03_land_use_transfer_matrix.py`](03_land_use_transfer_matrix.py)
 
@@ -30,7 +30,7 @@ Python scripts and publication-style figures for visualizing land-use/land-cover
 
 ### 4. LULC Percentage Change: 2000–2050
 
-![LULC Percentage](images/04_lulc_percentage_2000_2050.png)
+![LULC Percentage](images/04_lulc_percentage_2000_2050.jpeg)
 
 **Python code:** [`04_lulc_percentage_2000_2050.py`](04_lulc_percentage_2000_2050.py)
 
@@ -62,27 +62,3 @@ LULC-Visualization/
 - Matplotlib
 - Seaborn
 
-Install the dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Run the scripts
-
-```bash
-python 01_habitat_quality_2020_2050.py
-python 02_species_richness_heatmap_radar.py
-python 03_land_use_transfer_matrix.py
-python 04_lulc_percentage_2000_2050.py
-```
-
-Each script generates its corresponding PNG figure in the current directory.
-
-## Data note
-
-The values used in these figures are the values supplied with the original code. They are presented here as visualization inputs and should be interpreted according to the methodology and data sources of the associated research project.
-
-## Citation
-
-If you use these scripts or figures in an academic work, please cite the associated research/project and the original data sources where applicable.
